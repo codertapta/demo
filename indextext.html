@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanh Điều Hướng MUIT</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-section">
+        <a href="#" class="logo">
+          <img src="logo.png" alt="Logo MUIT" />
+        </a>
+        <a href="#" class="logo-text">MUIT</a>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Giới thiệu</a></li>
+          <li><a href="#">Laptop mới</a></li>
+          <li><a href="#">Laptop cũ</a></li>
+          <li><a href="#">Phụ kiện</a></li>
+        </ul>
+      </nav>
+
+      <div class="search-and-hotline">
+        <div class="search-container">
+          <input type="text" placeholder="Tìm kiếm sản phẩm..." />
+          <button type="submit">Tìm</button>
+        </div>
+
+        <div class="hotline">Hotline: 777777</div>
+      </div>
+
+      <div class="right-icons">
+        <a href="#" class="icon-link" title="Tài khoản">
+          <i class="fas fa-user"></i>
+        </a>
+
+        <a href="#" class="icon-link" title="Giỏ hàng">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">3</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="banner-container">
+        <img
+          class="banner-img active"
+          src="banner1.jpg"
+          alt="Quảng cáo banner 1"
+        />
+        <img class="banner-img" src="banner2.jpg" alt="Quảng cáo banner 2" />
+        <img class="banner-img" src="banner3.jpg" alt="Quảng cáo banner 3" />
+        <button class="prev">&#10094;</button>
+        <!-- dấu < -->
+        <button class="next">&#10095;</button>
+        <!-- dấu > -->
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

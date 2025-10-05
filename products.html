@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh sách sản phẩm - MUIT</title>
+    <link rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header / Thanh điều hướng -->
+    <header class="header">
+      <div class="logo-section">
+        <a href="#" class="logo">
+          <img src="logo.png" alt="Logo MUIT" />
+        </a>
+        <a href="#" class="logo-text">MUIT</a>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="products.html">Laptop mới</a></li>
+          <li><a href="products.html">Laptop cũ</a></li>
+          <li><a href="products.html">Phụ kiện</a></li>
+        </ul>
+      </nav>
+
+      <div class="search-and-hotline">
+        <div class="search-container">
+          <input type="text" placeholder="Tìm kiếm sản phẩm..." />
+          <button type="submit">Tìm</button>
+        </div>
+        <div class="hotline">Hotline: 777777</div>
+      </div>
+
+      <div class="right-icons">
+        <a href="profile.html" class="icon-link" title="Tài khoản">
+          <i class="fas fa-user"></i>
+        </a>
+        <a href="#" class="icon-link" title="Giỏ hàng">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">3</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner-container">
+      <img class="banner-img active" src="banner1.jpg" alt="Banner 1" />
+      <img class="banner-img" src="banner2.jpg" alt="Banner 2" />
+      <img class="banner-img" src="banner3.jpg" alt="Banner 3" />
+
+      <!-- Nút điều hướng -->
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+
+    <!-- Danh sách sản phẩm -->
+    <main>
+      <h2 style="text-align: center; margin: 20px 0">Sản phẩm nổi bật</h2>
+      <!-- Tìm kiếm nâng cao -->
+      <div class="filter-container">
+        <h3>Tìm kiếm nâng cao</h3>
+        <form>
+          <!-- Lọc theo hãng -->
+          <label for="brand">Hãng:</label>
+          <select id="brand" name="brand">
+            <option value="">-- Chọn hãng --</option>
+            <option value="asus">Asus</option>
+            <option value="dell">Dell</option>
+            <option value="hp">HP</option>
+            <option value="lenovo">Lenovo</option>
+            <option value="apple">Apple</option>
+          </select>
+
+          <!-- Lọc theo giá -->
+          <label for="price">Khoảng giá:</label>
+          <select id="price" name="price">
+            <option value="">-- Chọn khoảng giá --</option>
+            <option value="duoi-10">Dưới 10 triệu</option>
+            <option value="10-20">10 - 20 triệu</option>
+            <option value="20-30">20 - 30 triệu</option>
+            <option value="tren-30">Trên 30 triệu</option>
+          </select>
+
+          <!-- Nút tìm (không chạy) -->
+          <button type="button">Tìm kiếm</button>
+        </form>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-item">
+          <img src="sp1.jpg" alt="Laptop 1" />
+          <h3>Laptop Gaming X</h3>
+          <p>Giá: 15,000,000 VND</p>
+
+          <a href="products-detail.html" class="buy-now-link">Mua ngay</a>
+        </div>
+
+        <div class="product-item">
+          <img src="sp2.jpg" alt="Laptop 1" />
+          <h3>Laptop Gaming X</h3>
+          <p>Giá: 10,000,000 VND</p>
+
+          <a href="products-detail.html" class="buy-now-link">Mua ngay</a>
+        </div>
+
+        <div class="product-item">
+          <img src="sp3.jpg" alt="Laptop 1" />
+          <h3>Laptop Gaming X</h3>
+          <p>Giá: 25,000,000 VND</p>
+
+          <a href="products-detail.html" class="buy-now-link">Mua ngay</a>
+        </div>
+
+        <div class="product-item">
+          <img src="sp4.jpg" alt="Laptop 1" />
+          <h3>Laptop Gaming X</h3>
+          <p>Giá: 8,500,000 VND</p>
+
+          <a href="products-detail.html" class="buy-now-link">Mua ngay</a>
+        </div>
+
+        <div class="product-item">
+          <img src="sp5.jpg" alt="Laptop 1" />
+          <h3>Laptop Gaming X</h3>
+          <p>Giá: 20,000,000 VND</p>
+
+          <a href="products-detail.html" class="buy-now-link">Mua ngay</a>
+        </div>
+
+        <div class="product-item">
+          <img src="sp6.jpg" alt="Laptop 1" />
+          <h3>Laptop Gaming X</h3>
+          <p>Giá: 12,000,000 VND</p>
+
+          <a href="products-detail.html" class="buy-now-link">Mua ngay</a>
+        </div>
+        <div class="product-item">
+          <img src="sp7.jpg" alt="Laptop 1" />
+          <h3>Laptop Gaming X</h3>
+          <p>Giá: 19,000,000 VND</p>
+
+          <a href="products-detail.html" class="buy-now-link">Mua ngay</a>
+        </div>
+        <div class="product-item">
+          <img src="sp8.jpg" alt="Laptop 1" />
+          <h3>Laptop Gaming X</h3>
+          <p>Giá: 36,000,000 VND</p>
+
+          <a href="products-detail.html" class="buy-now-link">Mua ngay</a>
+        </div>
+      </div>
+      <div class="product-pagination">
+        <span class="page prev">&lt;</span>
+        <span class="page active">1</span>
+        <span class="page">2</span>
+        <span class="page">3</span>
+        <span class="page">4</span>
+        <span class="page">5</span>
+        <span class="page next">&gt;</span>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
